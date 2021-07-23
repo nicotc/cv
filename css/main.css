@@ -1223,9 +1223,11 @@
       height: 1.875rem;
       min-width: 1.875rem;
       width: 1.875rem; }
-      .btn.btn-icon.btn-sm i.fa,
+      .btn.btn-icon.btn-sm i.fab,
+      .btn.btn-icon.btn-sm i.fas,
       .btn.btn-icon.btn-sm i.now-ui-icons,
-      .navbar .navbar-nav > a.btn.btn-icon.btn-sm i.fa,
+      .navbar .navbar-nav > a.btn.btn-icon.btn-sm i.fab,
+      .navbar .navbar-nav > a.btn.btn-icon.btn-sm i.fas,
       .navbar .navbar-nav > a.btn.btn-icon.btn-sm i.now-ui-icons {
         font-size: 0.6875rem; }
     .btn.btn-icon.btn-lg,
@@ -1234,14 +1236,25 @@
       min-width: 3.6rem;
       width: 3.6rem; }
       .btn.btn-icon.btn-lg i.now-ui-icons,
-      .btn.btn-icon.btn-lg i.fa,
+      .btn.btn-icon.btn-lg i.fab,
+      .btn.btn-icon.btn-lg i.fas,
       .navbar .navbar-nav > a.btn.btn-icon.btn-lg i.now-ui-icons,
-      .navbar .navbar-nav > a.btn.btn-icon.btn-lg i.fa {
+      .navbar .navbar-nav > a.btn.btn-icon.btn-lg i.fab {
+        font-size: 1.325rem; }
+      .navbar .navbar-nav > a.btn.btn-icon.btn-lg i.fas {
         font-size: 1.325rem; }
     .btn.btn-icon:not(.btn-footer) i.now-ui-icons,
-    .btn.btn-icon:not(.btn-footer) i.fa,
+    .btn.btn-icon:not(.btn-footer) i.fab,
+    .btn.btn-icon:not(.btn-footer) i.fas,
     .navbar .navbar-nav > a.btn.btn-icon:not(.btn-footer) i.now-ui-icons,
-    .navbar .navbar-nav > a.btn.btn-icon:not(.btn-footer) i.fa {
+    .navbar .navbar-nav > a.btn.btn-icon:not(.btn-footer) i.fab {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-12px, -12px);
+      line-height: 1.5626rem;
+      width: 25px; }
+    .navbar .navbar-nav > a.btn.btn-icon:not(.btn-footer) i.fas {
       position: absolute;
       top: 50%;
       left: 50%;
@@ -2271,7 +2284,7 @@ p {
 
 .category {
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 400;
   color: #9A9A9A; }
 
 .text-primary {
@@ -2523,10 +2536,12 @@ body {
     font-size: 0.7142em;
     padding: 0.5rem 0.7rem;
     line-height: 1.625rem; }
-    .navbar .navbar-nav .nav-link:not(.btn) i.fa + p,
+    .navbar .navbar-nav .nav-link:not(.btn) i.fab + p,
+    .navbar .navbar-nav .nav-link:not(.btn) i.fas + p,
     .navbar .navbar-nav .nav-link:not(.btn) i.now-ui-icons + p {
       margin-left: 5px; }
-    .navbar .navbar-nav .nav-link:not(.btn) i.fa,
+    .navbar .navbar-nav .nav-link:not(.btn) i.fab,
+    .navbar .navbar-nav .nav-link:not(.btn) i.fas,
     .navbar .navbar-nav .nav-link:not(.btn) i.now-ui-icons {
       font-size: 18px;
       position: relative;
@@ -2761,7 +2776,8 @@ body {
   .alert strong {
     text-transform: uppercase;
     font-size: 12px; }
-  .alert i.fa,
+  .alert i.fab,
+  .alert i.fas,
   .alert i.now-ui-icons {
     font-size: 20px; }
   .alert .close {
@@ -4580,7 +4596,8 @@ Created using IcoMoon - icomoon.io
     text-align: right; }
   .section-nucleo-icons .icons-container {
     margin-top: 65px; }
-  .navbar-nav .nav-link i.fa,
+  .navbar-nav .nav-link i.fab,
+  .navbar-nav .nav-link i.fas,
   .navbar-nav .nav-link i.now-ui-icons {
     opacity: .5; }
   .section-images {
@@ -5284,3 +5301,23 @@ a.credit {
 /* Common Style */
 .section {
   padding-bottom: 0; }
+
+.php {
+  background-color: #8993be;
+  color: #000;
+}
+
+.js {
+  background-color: #F0DB4F;
+  color: #000;
+}
+
+.html5 {
+  background-color: #f06529;
+  color: #000;
+}
+
+.jquery {
+  background-color: #0769ad;
+  color: #000;
+}
